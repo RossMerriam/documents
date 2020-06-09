@@ -10,3 +10,12 @@ Below is a list of commonly used MariaDB and MySQL commands.
 
 **Flush Privileges**
 `MariaDB> flush privileges;`
+
+**Show All Users**
+`SELECT User from mysql.user;`
+
+**Change User Password**
+`ALTER USER 'USER_NAME@'localhost' IDENTIFIED BY 'mariadb';`
+
+**Delete User**
+`DROP USER 'USER_NAME'@'localhost';
